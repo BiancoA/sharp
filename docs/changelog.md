@@ -4,7 +4,17 @@
 
 Requires libvips v8.6.1.
 
-#### v0.20.1 - TBD
+#### v0.20.2 - TBD
+
+* Add tint operation to set image chroma.
+  [#825](https://github.com/lovell/sharp/pull/825)
+  [@rikh42](https://github.com/rikh42)
+
+* Add environment variable to ignore globally-installed libvips.
+  [#1165](https://github.com/lovell/sharp/pull/1165)
+  [@oncletom](https://github.com/oncletom)
+
+#### v0.20.1 - 17<sup>th</sup> March 2018
 
 * Improve installation experience when a globally-installed libvips below the minimum required version is found.
   [#1148](https://github.com/lovell/sharp/issues/1148)
@@ -12,6 +22,10 @@ Requires libvips v8.6.1.
 * Prevent smartcrop error when cumulative rounding is below target size.
   [#1154](https://github.com/lovell/sharp/issues/1154)
   [@ralrom](https://github.com/ralrom)
+
+* Expose libvips' median filter operation.
+  [#1161](https://github.com/lovell/sharp/pull/1161)
+  [@BiancoA](https://github.com/BiancoA)
 
 #### v0.20.0 - 5<sup>th</sup> March 2018
 
